@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA29CBB51E3C31DA00602E92 /* TableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA29CBB31E3C31DA00602E92 /* TableViewCell1.swift */; };
+		EA29CBB61E3C31DA00602E92 /* TableViewCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA29CBB41E3C31DA00602E92 /* TableViewCell1.xib */; };
+		EA29CBB91E3C34B500602E92 /* TableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA29CBB71E3C34B500602E92 /* TableViewCell2.swift */; };
+		EA29CBBA1E3C34B500602E92 /* TableViewCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA29CBB81E3C34B500602E92 /* TableViewCell2.xib */; };
 		EA595CC81E3C183E007BE637 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA595CC71E3C183E007BE637 /* AppDelegate.swift */; };
 		EA595CCA1E3C183E007BE637 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA595CC91E3C183E007BE637 /* ViewController.swift */; };
 		EA595CCD1E3C183E007BE637 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA595CCB1E3C183E007BE637 /* Main.storyboard */; };
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA29CBB31E3C31DA00602E92 /* TableViewCell1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell1.swift; sourceTree = "<group>"; };
+		EA29CBB41E3C31DA00602E92 /* TableViewCell1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell1.xib; sourceTree = "<group>"; };
+		EA29CBB71E3C34B500602E92 /* TableViewCell2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell2.swift; sourceTree = "<group>"; };
+		EA29CBB81E3C34B500602E92 /* TableViewCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell2.xib; sourceTree = "<group>"; };
 		EA595CC41E3C183E007BE637 /* CalculateInOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculateInOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA595CC71E3C183E007BE637 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA595CC91E3C183E007BE637 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +109,10 @@
 			children = (
 				EA595CC71E3C183E007BE637 /* AppDelegate.swift */,
 				EA595CC91E3C183E007BE637 /* ViewController.swift */,
+				EA29CBB31E3C31DA00602E92 /* TableViewCell1.swift */,
+				EA29CBB41E3C31DA00602E92 /* TableViewCell1.xib */,
+				EA29CBB71E3C34B500602E92 /* TableViewCell2.swift */,
+				EA29CBB81E3C34B500602E92 /* TableViewCell2.xib */,
 				EA595CCB1E3C183E007BE637 /* Main.storyboard */,
 				EA595CD11E3C183E007BE637 /* Assets.xcassets */,
 				EA595CD31E3C183E007BE637 /* LaunchScreen.storyboard */,
@@ -236,9 +248,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA29CBBA1E3C34B500602E92 /* TableViewCell2.xib in Resources */,
 				EA595CD51E3C183E007BE637 /* LaunchScreen.storyboard in Resources */,
 				EA595CD21E3C183E007BE637 /* Assets.xcassets in Resources */,
 				EA595CCD1E3C183E007BE637 /* Main.storyboard in Resources */,
+				EA29CBB61E3C31DA00602E92 /* TableViewCell1.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,9 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA29CBB91E3C34B500602E92 /* TableViewCell2.swift in Sources */,
 				EA595CCA1E3C183E007BE637 /* ViewController.swift in Sources */,
 				EA595CD01E3C183E007BE637 /* CalculateInOne.xcdatamodeld in Sources */,
 				EA595CC81E3C183E007BE637 /* AppDelegate.swift in Sources */,
+				EA29CBB51E3C31DA00602E92 /* TableViewCell1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +528,7 @@
 				EA595CF11E3C183F007BE637 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA595CF21E3C183F007BE637 /* Build configuration list for PBXNativeTarget "CalculateInOneTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +537,7 @@
 				EA595CF41E3C183F007BE637 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA595CF51E3C183F007BE637 /* Build configuration list for PBXNativeTarget "CalculateInOneUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +546,7 @@
 				EA595CF71E3C183F007BE637 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
